@@ -1,0 +1,120 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage3.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+   <title>Music Mania</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        <div id="wrapper">
+  <div class="headerzone">
+    <div class="header">
+      <div class="phone"> + 9424423987
+        <div class="email"> musicmenia@gmail.com  </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="topmenu">
+      <ul>
+
+        <li class="first"><a class="current" href="home.aspx">Home</a></li>
+        <li><a href="registration.aspx">Register</a></li>
+        <li><a href="about_us.aspx">About Us</a></li>
+        <li><a href="contact_us.aspx">contact Us</a></li>
+        
+        <%--<li><a href="change_password.aspx">Change Password</a></li>--%>
+        <li><a href="feedback.aspx">Feedback</a></li>
+        <li><a href="c_login.aspx">Login</a></li>
+        <li style="border:none;">
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="banner">
+    <div class="features">
+      <div class="buybutton">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+      </div>
+    </div>
+    <div class="clear"></div>
+      <div class="bannerText"><span class="blueText">
+          <div style="font-size: xx-large" align="center"> 
+           <br />
+     MUSIC MENIA</div></span>
+    </div>
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="workZone">
+    <div class="midBox">
+      <div class="topBox">
+        <div class="bottomBox">
+          <div class="leftBox">
+            <div class="box1">
+              <h1>Digital Music</h1>
+              <div class="whiteText"> Make your own music Library.</div>
+              <div class="cdBox"><img src="images/leftpic1.jpg" alt="" /> </div>
+              <div class="leftText"> <span class="boldText">Digital Library</span><br />
+                  They Provide Play oudio files encoded in MP3 and other audio format.</div>
+              <div class="clear"></div>
+            </div>
+            <div class="box2">
+              <h1>Songs Category</h1>
+              <div class="whiteText"> &nbsp; Choose your any Category</div>
+              <div class="cdBox"><img src="images/leftpic2.jpg" alt="" /> </div>
+              <div class="leftText"><span class="boldText">View Category</span><br /> DJ songs<br />
+                  English Songs<br />
+                  Hindi Songs<br />
+                  Classical Songs<br />
+                  Ghazal<br />
+                  wedding Songs<br />
+                  Old Songs</div>
+              <div class="clear"></div>
+            </div>
+            <div class="box3">
+              <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+          </div>
+          
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="workZoneRight">
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+    <div class="clear"></div>
+  </div>
+  <div class="footer">
+    <ul style="color:#FFF;">
+      Copyright (c) Sitename.com. All rights reserved. Design by Stylish<li>&nbsp;Prashant 
+            Thanki</li>
+    </ul>
+  </div>
+</div>
+        
+        </div>
+  
+  
+  
+    </form>
+</body>
+</html>
+
+ 

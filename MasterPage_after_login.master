@@ -1,0 +1,85 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage_after_login.master.cs" Inherits="MasterPage_after_login" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+   <title>Music Mania</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body bgcolor="#FF66FF">
+    <form id="form1" runat="server">
+        <div>
+        <div id="wrapper">
+  <div class="headerzone">
+    <div class="header">
+      <div class="phone"> + 9424423987
+        <div class="email">musicmenia@gmail.com </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="topmenu">
+      <ul>
+
+        <li class="first"><a class="current" href="home.aspx">Home</a></li>
+        <li><a href="edit_viewprofile.aspx">View Profile</a></li>
+        <li><a href="change_password.aspx">change Password</a></li>
+        
+        
+       <li><a href="audio_download.aspx">Audio</a></li>
+       <li><a href="video_download.aspx">video</a></li>
+       <li><a href="client_logout.aspx">Logout</a></li>
+     <li style="border:none;">
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="banner">
+    <div class="features">
+      <div class="buybutton">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+      </div>
+    </div>
+    <div class="clear"></div>
+      <div class="bannerText"><span class="blueText">
+          <div style="font-size: xx-large" align="center"> 
+           <br />
+     MUSIC MENIA</div></span>
+    </div>
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="workZone">
+    <div class="midBox">
+      <div class="topBox">
+        <div class="bottomBox">
+          
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="workZoneRight">
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+    <div class="clear"></div>
+  </div>
+</div>
+        
+        </div>
+  
+  
+  
+    </form>
+</body>
+</html>

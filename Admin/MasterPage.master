@@ -1,0 +1,160 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Admin_MasterPage" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="layout.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Music Mania</title>
+    <script language="javascript" type="text/javascript">
+// <![CDATA[
+
+        function property_onclick() {
+        }
+
+// ]]>
+    </script>
+    <style type="text/css">
+        .style1
+        {
+            font-size: xx-large;
+        }
+        .style2
+        {
+            color: #9999FF;
+        }
+        .style3
+        {
+            color: #9966FF;
+        }
+        .style4
+        {
+            font-size: x-large;
+        }
+        .style6
+        {
+            font-size: xx-large;
+            color: #666666;
+            font-family: "Adobe Garamond Pro";
+        }
+        .style10
+        {
+            width: 13px;
+            height: 615px;
+        }
+        .style11
+        {
+            height: 615px;
+        }
+    </style>
+</head>
+
+<body  "background-color: #FFCCFF;">
+    <form id="form1" runat="server">
+<div id="wrap" style="border-style: solid; border-color: #000000">
+	   
+	   	<div id="header" style="border-style: solid; border-color: #000000">
+	      	
+ </span><span class="style6">&nbsp;<span 
+                    class="style4"><strong><span class="style1"><asp:Image ID="Image1" 
+                runat="server" Height="121px" ImageUrl="~/Admin/image/music-mania.png" 
+                Width="849px" />
+            </span></strong>
+            </span></span><span 
+                    class="style4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></strong>
+                <strong><span class="style1">&nbsp; <span class="style3"></span><span 
+                    class="style2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            Admin Panel</span></span></strong></div>
+			  
+            
+	   	    <table style="width:125%;">
+                <tr>
+                    <td class="style10" 
+                        
+                        style="border-style: solid; border-color: #000000; background-color: #000000;">
+                   <asp:Button ID="Button10" runat="server" Text="Home" Height="38px" 
+                       BackColor="#FFCCFF" Width="153px" ForeColor="#666666" 
+                       PostBackUrl="~/Admin/Home.aspx" />
+			
+	   	                <br />
+                        <br />
+                        <asp:Button ID="Button1" runat="server" Text="Audio" Height="38px"
+                         BackColor="#FFCCFF" Width="153px" ForeColor="#666666" 
+                         PostBackUrl="~/Admin/audio.aspx" />
+                       
+			
+                        <br />
+                        <br />
+                        <asp:Button ID="Button11" runat="server" Text="Country" Height="38px" 
+                       BackColor="#FFCCFF" Width="153px" ForeColor="#666666" 
+                       PostBackUrl="~/Admin/country.aspx" />
+			
+	   	                <br />
+                        <br />
+                        <asp:Button ID="Button3" runat="server" Text="State" Height="38px" 
+                       BackColor="#FFCCFF" Width="153px" ForeColor="#666666" 
+                       PostBackUrl="~/Admin/state.aspx" />
+			
+	   	                <br />
+                        <br />
+                        <asp:Button ID="Button4" runat="server" Text="City" Height="38px" 
+                       BackColor="#FFCCFF" Width="153px" ForeColor="#666666" 
+                       PostBackUrl="~/Admin/city.aspx" />
+			
+	   	                <br />
+                        <br />
+                        <asp:Button ID="Button5" runat="server" Text="Category" Height="38px" 
+                       BackColor="#FFCCFF" Width="153px" ForeColor="#666666" PostBackUrl="~/Admin/category.aspx" />
+			
+	   	                <br />
+                        <br />
+                        <asp:Button ID="Button6" runat="server" Text="Sub_Category" Height="38px" 
+                       BackColor="#FFCCFF" Width="153px" ForeColor="#666666" PostBackUrl="~/Admin/subcategory.aspx" />
+			
+			
+	   	                <br />
+                        <br />
+                        <asp:Button ID="Button12" runat="server" Text="Upload Video" Height="38px" 
+                       BackColor="#FFCCFF" Width="153px" ForeColor="#666666" 
+                            PostBackUrl="~/Admin/videos.aspx" />
+			
+			
+	   	                <br />
+                        <br />
+                        <asp:Button ID="Button8" runat="server" Text="Logout" Height="38px" 
+                       BackColor="#FFCCFF" Width="153px" ForeColor="#666666" PostBackUrl="~/Admin/admin_logout.aspx" />
+			
+                        <br />
+                        <br />
+	   	                <asp:Button ID="Button9" runat="server" Text="Change Password" Height="38px" 
+                       BackColor="#FFCCFF" Width="153px" ForeColor="#666666" PostBackUrl="~/Admin/change_password.aspx" />
+			
+	   	                <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+			
+	   	            </td>
+                    <td class="style11" 
+                        style="border-style: solid; border-color: #000000; background-color: #FFCCFF;">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                </table>
+            
+	   	</div>
+	   	
+	   <div id="content">
+       <div>
+    </div>
+       </div>
+
+	   
+    </form>
+</body>
+</html>
+
+
